@@ -1,0 +1,466 @@
+{
+  "techAreas": [
+    "Todos",
+    "LABOR",
+    "SEAD",
+    "FABRICA",
+    "NEVES & FERREIRA"
+  ],
+  "topics": [
+    { "name": "Super Principe", "area": "LABOR", "nickname": "super_principe" },
+    { "name": "GuardVision", "area": "LABOR", "nickname": "guardvision" },
+    { "name": "GESTOR - Sei Já", "area": "SEAD", "nickname": "gestor_sei_ja" },
+    { "name": "GESTOR - Painel SEI", "area": "SEAD", "nickname": "gestor_painel_sei" },
+    { "name": "GESTOR - Gestão de Projetos", "area": "SEAD", "nickname": "gestor_gestao_projetos" },
+    { "name": "GESTOR - Planjeamento Estrategico", "area": "SEAD", "nickname": "gestor_planejamento_estrategico" },
+    { "name": "GESTOR - MGE", "area": "SEAD", "nickname": "gestor_mge" },
+    { "name": "GESTOR - Controle de Requisições", "area": "SEAD", "nickname": "gestor_controle_requisicoes" },
+    { "name": "MRAE", "area": "SEAD", "nickname": "mrae" },
+    { "name": "ORG.PI", "area": "FABRICA", "nickname": "org_pi" },
+    { "name": "SGCT", "area": "FABRICA", "nickname": "sgct" },
+    { "name": "SGA", "area": "FABRICA", "nickname": "sga" },
+    { "name": "GovSync", "area": "NEVES & FERREIRA", "nickname": "govsync" }
+  ],
+  "topicDetails": {
+    "super_principe": {
+      "title": "Super Principe",
+      "description": "...",
+      "metadata": {
+        "contratante": "ETIPI",
+        "status": "Aguardando Contratação",
+        "inicio": "",
+        "proxima etapa": ""
+      },
+      "roadmapSteps": [
+        { "id": "1", "title": "Planejamento" },
+        { "id": "2", "title": "Desenvolvimento" }
+      ],
+      "columns": [
+        {
+          "title": "Gerencia de Projetos",
+          "color": "blue",
+          "items": [
+            {
+              "title": "Marcos Iran",
+              "vinculo": "SEAD"
+            }
+          ]
+        },
+        {
+          "title": "Desenvolvimento",
+          "color": "yellow",
+          "items": [
+            {
+              "title": "Jonatas",
+              "vinculo": "SEAD"
+            }
+          ]
+        },
+        {
+          "title": "Desing",
+          "color": "green",
+          "items": [
+            {
+              "title": "Marcio Iran",
+              "vinculo": "SEAD"
+            }
+          ]
+        }
+      ]
+    },
+    "guardvision": {
+      "title": "GuardVision",
+      "description": "...",
+      "metadata": {
+        "contratante": "ETIPI",
+        "status": "Sem Informações",
+        "inicio": "",
+        "proxima etapa": ""
+      },
+      "roadmapSteps": [
+        { "id": "1", "title": "Planejamento" },
+        { "id": "2", "title": "Desenvolvimento" },
+        { "id": "3", "title": "Implantação" },
+        { "id": "4", "title": "Manutenção" }
+      ],
+      "columns": [
+        {
+          "title": "Gerencia de Projetos",
+          "color": "blue",
+          "items": [
+            {
+              "title": "Marcos Iran",
+              "vinculo": "SEAD"
+            }
+          ]
+        },
+        {
+          "title": "Desenvolvimento",
+          "color": "yellow",
+          "items": [
+            {
+              "title": "Ramon",
+              "vinculo": "SEAD"
+            }
+          ]
+        },
+        {
+          "title": "Desing",
+          "color": "green",
+          "items": [
+            {
+              "title": "Marcio Iran",
+              "vinculo": "SEAD"
+            }
+          ]
+        }
+      ]
+    },
+    "gestor_sei_ja": {
+      "title": "GESTOR - Sei Já",
+      "description": "...",
+      "metadata": {
+        "contratante": "FABRICA - MANUTENÇÃO",
+        "status": "Sem Informações",
+        "inicio": "",
+        "proxima etapa": ""
+      },
+      "roadmapSteps": [],
+      "columns": [
+        {
+          "title": "Gerencia de Projetos",
+          "color": "blue",
+          "items": [
+            {
+              "title": "Gabriel Coelho",
+              "vinculo": "SEAD"
+            }
+          ]
+        },
+        {
+          "title": "Desenvolvimento",
+          "color": "yellow",
+          "items": [
+            {
+              "title": "Lucas Amorim",
+              "vinculo": "SEAD"
+            }
+          ]
+        }
+      ]
+    },
+    "gestor_painel_sei": {
+      "title": "GESTOR - Painel SEI",
+      "description": "...",
+      "metadata": {
+        "contratante": "SYALAE - FABRICA",
+        "status": "Sem Informações",
+        "inicio": "",
+        "proxima etapa": ""
+      },
+      "roadmapSteps": [],
+      "columns": [
+        {
+          "title": "Gerencia de Projetos",
+          "color": "blue",
+          "items": [
+            {
+              "title": "Gabriel Coelho",
+              "vinculo": "SEAD"
+            }
+          ]
+        }
+      ]
+    },
+    "gestor_gestao_projetos": {
+      "title": "GESTOR - Gestão de Projetos",
+      "description": "...",
+      "metadata": {
+        "contratante": "Sem Informações",
+        "status": "Sem Informações",
+        "inicio": "",
+        "proxima etapa": ""
+      },
+      "roadmapSteps": [],
+      "columns": [
+        {
+          "title": "Gerencia de Projetos",
+          "color": "blue",
+          "items": [
+            {
+              "title": "Marcos Iran",
+              "vinculo": "SEAD"
+            }
+          ]
+        },
+        {
+          "title": "Desenvolvimento",
+          "color": "yellow",
+          "items": [
+            {
+              "title": "Carlos Cesar",
+              "vinculo": "SSP"
+            }
+          ]
+        }
+      ]
+    },
+    "gestor_planejamento_estrategico": {
+      "title": "GESTOR - Planjeamento Estrategico",
+      "description": "...",
+      "metadata": {
+        "contratante": "Sem Informações",
+        "status": "Sem Informações",
+        "inicio": "",
+        "proxima etapa": ""
+      },
+      "roadmapSteps": [
+        { "id": "1", "title": "Planejamento" },
+        { "id": "2", "title": "Desenvolvimento" }
+      ],
+      "columns": [
+        {
+          "title": "Gerencia de Projetos",
+          "color": "blue",
+          "items": [
+            {
+              "title": "Marcos Iran",
+              "vinculo": "SEAD"
+            }
+          ]
+        },
+        {
+          "title": "Desenvolvimento",
+          "color": "yellow",
+          "items": [
+            {
+              "title": "Ramon",
+              "vinculo": "SEAD"
+            }
+          ]
+        }
+      ]
+    },
+    "gestor_mge": {
+      "title": "GESTOR - MGE",
+      "description": "...",
+      "metadata": {
+        "contratante": "Sem Informações",
+        "status": "Sem Informações",
+        "inicio": "",
+        "proxima etapa": ""
+      },
+      "roadmapSteps": [
+        { "id": "1", "title": "Planejamento" },
+        { "id": "2", "title": "Desenvolvimento" },
+        { "id": "3", "title": "Implantação" },
+        { "id": "4", "title": "Manutenção" }
+      ],
+      "columns": [
+        {
+          "title": "Desenvolvimento",
+          "color": "yellow",
+          "items": [
+            {
+              "title": "Carlos Cesar",
+              "vinculo": "SSP"
+            }
+          ]
+        }
+      ]
+    },
+    "gestor_controle_requisicoes": {
+      "title": "GESTOR - Controle de Requisições",
+      "description": "...",
+      "metadata": {
+        "contratante": "FABRICA - MANUTENÇÃO",
+        "status": "Sem Informações",
+        "inicio": "",
+        "proxima etapa": ""
+      },
+      "roadmapSteps": [
+        { "id": "1", "title": "Planejamento" }
+      ],
+      "columns": [
+        {
+          "title": "Analise de Requisitos",
+          "color": "red",
+          "items": [
+            {
+              "title": "Pedro Alexandre",
+              "vinculo": "SEAD"
+            }
+          ]
+        },
+        {
+          "title": "Gerencia de Projetos",
+          "color": "blue",
+          "items": [
+            {
+              "title": "Gabriel Coelho",
+              "vinculo": "SEAD"
+            }
+          ]
+        },
+        {
+          "title": "Desenvolvimento",
+          "color": "yellow",
+          "items": [
+            {
+              "title": "Lucas Amorim",
+              "vinculo": "SEAD"
+            },
+            {
+              "title": "Jonatas",
+              "vinculo": "SEAD"
+            },
+            {
+              "title": "Jackson",
+              "vinculo": "LABOR"
+            }
+          ]
+        }
+      ]
+    },
+    "mrae": {
+      "title": "MRAE",
+      "description": "...",
+      "metadata": {
+        "contratante": "Sem Informações",
+        "status": "Sem Informações",
+        "inicio": "",
+        "proxima etapa": ""
+      },
+      "roadmapSteps": [],
+      "columns": []
+    },
+    "org_pi": {
+      "title": "ORG.PI",
+      "description": "...",
+      "metadata": {
+        "contratante": "FABRICA",
+        "status": "Sem Informações",
+        "inicio": "",
+        "proxima etapa": ""
+      },
+      "roadmapSteps": [
+        { "id": "1", "title": "Planejamento" },
+        { "id": "2", "title": "Desenvolvimento" }
+      ],
+      "columns": [
+        {
+          "title": "Analise de Requisitos",
+          "color": "red",
+          "items": [
+            {
+              "title": "Pedro Alexandre",
+              "vinculo": "SEAD"
+            }
+          ]
+        },
+        {
+          "title": "Gerencia de Projetos",
+          "color": "blue",
+          "items": [
+            {
+              "title": "Marcos Iran",
+              "vinculo": "SEAD"
+            },
+            {
+              "title": "João Claudio",
+              "vinculo": "LABOR"
+            },
+            {
+              "title": "Gabriel Coelho",
+              "vinculo": "SEAD"
+            }
+          ]
+        },
+        {
+          "title": "Desenvolvimento",
+          "color": "yellow",
+          "items": [
+            {
+              "title": "Lucas Amorim",
+              "vinculo": "SEAD"
+            },
+            {
+              "title": "Jackson",
+              "vinculo": "LABOR"
+            }
+          ]
+        }
+      ]
+    },
+    "sgct": {
+      "title": "SGCT",
+      "description": "...",
+      "metadata": {
+        "contratante": "FABRICA",
+        "status": "Sem Informações",
+        "inicio": "",
+        "proxima etapa": ""
+      },
+      "roadmapSteps": [],
+      "columns": [
+        {
+          "title": "Desenvolvimento",
+          "color": "yellow",
+          "items": [
+            {
+              "title": "Jonatas",
+              "vinculo": "SEAD"
+            }
+          ]
+        }
+      ]
+    },
+    "sga": {
+      "title": "SGA",
+      "description": "...",
+      "metadata": {
+        "contratante": "FABRICA",
+        "status": "Sem Informações",
+        "inicio": "",
+        "proxima etapa": ""
+      },
+      "roadmapSteps": [],
+      "columns": []
+    },
+    "govsync": {
+      "title": "GovSync",
+      "description": "...",
+      "metadata": {
+        "contratante": "NEVES & FERREIRA",
+        "status": "Aguardando Contratação",
+        "inicio": "",
+        "proxima etapa": ""
+      },
+      "roadmapSteps": [
+        { "id": "1", "title": "Planejamento" }
+      ],
+      "columns": [
+        {
+          "title": "Gerencia de Projetos",
+          "color": "blue",
+          "items": [
+            {
+              "title": "Marcos Iran",
+              "vinculo": "SEAD"
+            }
+          ]
+        },
+        {
+          "title": "Desenvolvimento",
+          "color": "yellow",
+          "items": [
+            {
+              "title": "Ramon",
+              "vinculo": "SEAD"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
