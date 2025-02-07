@@ -20,7 +20,9 @@
     { "name": "ORG.PI", "area": "FABRICA", "nickname": "org_pi" },
     { "name": "SGCT", "area": "FABRICA", "nickname": "sgct" },
     { "name": "SGA", "area": "FABRICA", "nickname": "sga" },
-    { "name": "GovSync", "area": "NEVES & FERREIRA", "nickname": "govsync" }
+    { "name": "GovSync", "area": "NEVES & FERREIRA", "nickname": "govsync" },
+    { "name": "NutripMap", "area": "FABRICA", "nickname": "nutrimap" }
+
   ],
   "topicDetails": {
     "super_principe": {
