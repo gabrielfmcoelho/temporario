@@ -55,10 +55,10 @@ export default function Home() {
       <ColorDivider />
       <section className="container mx-auto px-4 py-8 sm:py-12 lg:py-16">
         {
-          <Image src="/Logo SEAD (2).png" alt="TechGuide.sh" width={450} height={450} className="mx-auto my-4 lg:mb-12 max-md:w-2/3" />
+          //<Image src="/Logo SEAD (2).png" alt="TechGuide.sh" width={450} height={450} className="mx-auto my-4 lg:mb-12 max-md:w-2/3" />
         }
         <h1 className="mb-2 mx-auto text-center text-3xl font-bold leading-tight text-red sm:text-4xl md:text-5xl lg:text-6xl">
-          SUR
+          SUR Systems
         </h1>
         <h1 className="mb-4 mx-auto text-center text-3xl font-bold leading-tight text-blue sm:text-4xl md:text-5xl lg:text-6xl">
           Soluções Digitais
