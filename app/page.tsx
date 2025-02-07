@@ -4,7 +4,7 @@ import { useState } from "react"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { ColorDivider } from "@/components/ColorDivider"
 import { Card } from "@/components/ui/card"
-import techGuideData from "@/data/tech-guide-data.json"
+import projects from "@/data/projects.json"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import html2canvas from "html2canvas"
@@ -24,8 +24,8 @@ export default function Home() {
 
   const filteredTopics =
     selectedArea === "Todos"
-      ? techGuideData.topics
-      : techGuideData.topics.filter((topic: Topic) => topic.area === selectedArea)
+      ? projects.topics
+      : projects.topics.filter((topic: Topic) => topic.area === selectedArea)
 
   const handleDownloadPdf = async () => {
     const element = document.getElementById("pdf-content")
@@ -46,19 +46,20 @@ export default function Home() {
     setSelectedTopic(nickname)
   }
 
-  const handleBack = () => {
-    setSelectedTopic(null)
-  }
-
   const topicData = selectedTopic
-    ? techGuideData.topicDetails[selectedTopic as keyof typeof techGuideData.topicDetails]
+    ? projects.topicDetails[selectedTopic as keyof typeof projects.topicDetails]
     : null
 
   return (
     <main id="pdf-content" className="min-h-screen bg-white text-gray-800">
       <ColorDivider />
       <section className="container mx-auto px-4 py-8 sm:py-12 lg:py-16">
-        <Image src="/Logo SEAD (2).png" alt="TechGuide.sh" width={450} height={450} className="mx-auto my-4 lg:mb-12 max-md:w-2/3" />
+        {
+          <Image src="/Logo SEAD (2).png" alt="TechGuide.sh" width={450} height={450} className="mx-auto my-4 lg:mb-12 max-md:w-2/3" />
+        }
+        <h1 className="mb-2 mx-auto text-center text-3xl font-bold leading-tight text-red sm:text-4xl md:text-5xl lg:text-6xl">
+          SRU
+        </h1>
         <h1 className="mb-4 mx-auto text-center text-3xl font-bold leading-tight text-blue sm:text-4xl md:text-5xl lg:text-6xl">
           Soluções Digitais
           <br className="sm:inline" />
@@ -69,7 +70,7 @@ export default function Home() {
           </span>
         </h1>
         <p className="mx-auto mb-8 max-w-2xl text-center sm:text-lg text-gray-600">
-          Esta pagina contém informações sobre as soluções digitais em desenvolvimento para o ano de 2025 pela SEAD, sob gerencia da NTGD e suas fabricas de software parceiras.
+          {projects.description}
           <br />
           <Button variant={"ghost"} onClick={handleDownloadPdf} className="mx-auto mt-2 text-blue hover:bg-yellow/50 hover:text-white">
             Baixar PDF
@@ -78,7 +79,7 @@ export default function Home() {
 
         <Tabs value={selectedArea} onValueChange={setSelectedArea} className="mb-14 sm:mb-14">
           <TabsList className="flex flex-wrap justify-center gap-2 bg-transparent">
-            {techGuideData.techAreas.map((area) => (
+            {projects.areas.map((area) => (
               <TabsTrigger
                 key={area}
                 value={area}
@@ -145,7 +146,7 @@ export default function Home() {
           <div className="flex justify-center border-b border-gray-200 py-4"/>
 
           {/* Roadmap Section */}
-          <h2 className="mt-12 mb-4 text-2xl font-bold text-center">Etapas do Projeto</h2>
+          <h2 className="mt-12 mb-4 text-2xl font-bold text-center">Etapas</h2>
           <Roadmap roadmapSteps={topicData.roadmapSteps || []} />
         </section>
       )}

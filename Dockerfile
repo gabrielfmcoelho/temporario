@@ -27,7 +27,7 @@ RUN npm install --production --force
 # Copy built files from the builder stage
 COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/public ./public
-COPY --from=builder /app/next.config.js ./
+COPY --from=builder /app/next.config.mjs ./
 
 # Expose the port that the application will run on
 EXPOSE 3000

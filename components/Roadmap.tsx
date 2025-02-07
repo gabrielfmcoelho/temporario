@@ -115,7 +115,7 @@ const Roadmap = ({ roadmapSteps = [] }: RoadmapProps) => {
   const rows = groupSteps(roadmapSteps);
 
   if (!roadmapSteps.length) {
-    return <div className="text-center p-8 text-gray-500">No roadmap steps available</div>;
+    return <div className="text-center p-8 text-gray-500">Sem informações de etapas de execução</div>;
   }
 
   return (

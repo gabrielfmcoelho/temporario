@@ -1,5 +1,6 @@
 {
-  "techAreas": [
+  "description": "Esta pagina contém informações sobre as soluções digitais em desenvolvimento para o ano de 2025 pela equipe e suas fabricas de software parceiras.",
+  "areas": [
     "Todos",
     "LABOR",
     "SEAD",
@@ -12,7 +13,7 @@
     { "name": "GESTOR - Sei Já", "area": "SEAD", "nickname": "gestor_sei_ja" },
     { "name": "GESTOR - Painel SEI", "area": "SEAD", "nickname": "gestor_painel_sei" },
     { "name": "GESTOR - Gestão de Projetos", "area": "SEAD", "nickname": "gestor_gestao_projetos" },
-    { "name": "GESTOR - Planjeamento Estrategico", "area": "SEAD", "nickname": "gestor_planejamento_estrategico" },
+    { "name": "GESTOR - Planejamento Estratégico", "area": "SEAD", "nickname": "gestor_planejamento_estrategico" },
     { "name": "GESTOR - MGE", "area": "SEAD", "nickname": "gestor_mge" },
     { "name": "GESTOR - Controle de Requisições", "area": "SEAD", "nickname": "gestor_controle_requisicoes" },
     { "name": "MRAE", "area": "SEAD", "nickname": "mrae" },
@@ -24,16 +25,16 @@
   "topicDetails": {
     "super_principe": {
       "title": "Super Principe",
-      "description": "...",
+      "description": "Sistema de gerenciamento de expedientes e processos para a Procuradoria Geral do Estado do Piauí",
       "metadata": {
         "contratante": "ETIPI",
         "status": "Aguardando Contratação",
-        "inicio": "",
-        "proxima etapa": ""
+        "inicio": "02/2025",
+        "previsão conclusão": ""
       },
       "roadmapSteps": [
         { "id": "1", "title": "Planejamento" },
-        { "id": "2", "title": "Desenvolvimento" }
+        { "id": "2", "title": "Desenvolvimento", "description": ""}
       ],
       "columns": [
         {
@@ -57,11 +58,11 @@
           ]
         },
         {
-          "title": "Desing",
+          "title": "Design",
           "color": "green",
           "items": [
             {
-              "title": "Marcio Iran",
+              "title": "Márcio Iran",
               "vinculo": "SEAD"
             }
           ]
@@ -70,12 +71,12 @@
     },
     "guardvision": {
       "title": "GuardVision",
-      "description": "...",
+      "description": "Gerenciamento de chamados de suporte técnicos de equipamentos/sistemas/infraestrutura/qualidade e gerenciamento de frota de veículos",
       "metadata": {
         "contratante": "ETIPI",
-        "status": "Sem Informações",
-        "inicio": "",
-        "proxima etapa": ""
+        "status": "Aguardando Contratação",
+        "inicio": "05/2024",
+        "previsão conclusão": ""
       },
       "roadmapSteps": [
         { "id": "1", "title": "Planejamento" },
@@ -89,7 +90,7 @@
           "color": "blue",
           "items": [
             {
-              "title": "Marcos Iran",
+              "title": "Ricardo Luiz",
               "vinculo": "SEAD"
             }
           ]
@@ -105,11 +106,11 @@
           ]
         },
         {
-          "title": "Desing",
+          "title": "Design",
           "color": "green",
           "items": [
             {
-              "title": "Marcio Iran",
+              "title": "Márcio Iran",
               "vinculo": "SEAD"
             }
           ]
@@ -121,11 +122,14 @@
       "description": "...",
       "metadata": {
         "contratante": "FABRICA - MANUTENÇÃO",
-        "status": "Sem Informações",
-        "inicio": "",
-        "proxima etapa": ""
+        "status": "Aguardando Contratação",
+        "inicio": "11/2024",
+        "previsão conclusão": ""
       },
-      "roadmapSteps": [],
+      "roadmapSteps": [
+        { "id": "1", "title": "Planejamento" },
+        { "id": "2", "title": "Desenvolvimento" }
+      ],
       "columns": [
         {
           "title": "Gerencia de Projetos",
@@ -153,12 +157,15 @@
       "title": "GESTOR - Painel SEI",
       "description": "...",
       "metadata": {
-        "contratante": "SYALAE - FABRICA",
-        "status": "Sem Informações",
-        "inicio": "",
-        "proxima etapa": ""
+        "contratante": "SYALAE - Fabrica",
+        "status": "Aguardando Contratação",
+        "inicio": "04/2024",
+        "previsão conclusão": "18/02/2025"
       },
-      "roadmapSteps": [],
+      "roadmapSteps": [
+        { "id": "1", "title": "Planejamento" },
+        { "id": "2", "title": "Desenvolvimento" }
+      ],
       "columns": [
         {
           "title": "Gerencia de Projetos",
@@ -169,6 +176,16 @@
               "vinculo": "SEAD"
             }
           ]
+        },
+        {
+          "title": "Desenvolvimento",
+          "color": "yellow",
+          "items": [
+            {
+              "title": "Externo",
+              "vinculo": "Fabrica"
+            }
+          ]
         }
       ]
     },
@@ -176,12 +193,17 @@
       "title": "GESTOR - Gestão de Projetos",
       "description": "...",
       "metadata": {
-        "contratante": "Sem Informações",
-        "status": "Sem Informações",
-        "inicio": "",
-        "proxima etapa": ""
+        "contratante": "SEAD",
+        "status": "Ativo",
+        "inicio": "12/2024",
+        "previsão conclusão": "01/2025"
       },
-      "roadmapSteps": [],
+      "roadmapSteps": [
+        { "id": "1", "title": "Planejamento" },
+        { "id": "2", "title": "Desenvolvimento" },
+        { "id": "3", "title": "Implantação" },
+        { "id": "4", "title": "Manutenção" }
+      ],
       "columns": [
         {
           "title": "Gerencia de Projetos",
@@ -206,17 +228,19 @@
       ]
     },
     "gestor_planejamento_estrategico": {
-      "title": "GESTOR - Planjeamento Estrategico",
+      "title": "GESTOR - Planejamento Estratégico",
       "description": "...",
       "metadata": {
-        "contratante": "Sem Informações",
-        "status": "Sem Informações",
-        "inicio": "",
-        "proxima etapa": ""
+        "contratante": "SEAD",
+        "status": "Ativo",
+        "inicio": "01/2024",
+        "previsão conclusão": "02/2025"
       },
       "roadmapSteps": [
         { "id": "1", "title": "Planejamento" },
-        { "id": "2", "title": "Desenvolvimento" }
+        { "id": "2", "title": "Desenvolvimento" },
+        { "id": "3", "title": "Implantação" },
+        { "id": "4", "title": "Manutenção" }
       ],
       "columns": [
         {
@@ -236,6 +260,10 @@
             {
               "title": "Ramon",
               "vinculo": "SEAD"
+            },
+            {
+              "title": "Carlos Cesar",
+              "vinculo": "SSP"
             }
           ]
         }
@@ -245,10 +273,10 @@
       "title": "GESTOR - MGE",
       "description": "...",
       "metadata": {
-        "contratante": "Sem Informações",
-        "status": "Sem Informações",
-        "inicio": "",
-        "proxima etapa": ""
+        "contratante": "SEAD",
+        "status": "Ativo",
+        "inicio": "11/2024",
+        "previsão conclusão": "03/2025"
       },
       "roadmapSteps": [
         { "id": "1", "title": "Planejamento" },
@@ -262,8 +290,8 @@
           "color": "yellow",
           "items": [
             {
-              "title": "Carlos Cesar",
-              "vinculo": "SSP"
+              "title": "Ramon",
+              "vinculo": "SEAD"
             }
           ]
         }
@@ -271,15 +299,16 @@
     },
     "gestor_controle_requisicoes": {
       "title": "GESTOR - Controle de Requisições",
-      "description": "...",
+      "description": "Gerenciamento de solicitação de aquição e controle de materiais", 
       "metadata": {
         "contratante": "FABRICA - MANUTENÇÃO",
-        "status": "Sem Informações",
-        "inicio": "",
-        "proxima etapa": ""
+        "status": "Aguardando Contratação",
+        "inicio": "02/2025",
+        "previsão conclusão": "04/2025"
       },
       "roadmapSteps": [
-        { "id": "1", "title": "Planejamento" }
+        { "id": "1", "title": "Planejamento" },
+        { "id": "2", "title": "Desenvolvimento" }
       ],
       "columns": [
         {
@@ -287,7 +316,11 @@
           "color": "red",
           "items": [
             {
-              "title": "Pedro Alexandre",
+              "title": "Ubaldo Neves",
+              "vinculo": "SEAD"
+            },
+            {
+              "title": "Pedro",
               "vinculo": "SEAD"
             }
           ]
@@ -296,6 +329,10 @@
           "title": "Gerencia de Projetos",
           "color": "blue",
           "items": [
+            {
+              "title": "Marcos Iran",
+              "vinculo": "SEAD"
+            },
             {
               "title": "Gabriel Coelho",
               "vinculo": "SEAD"
@@ -324,27 +361,29 @@
     },
     "mrae": {
       "title": "MRAE",
-      "description": "...",
+      "description": "Sistema de apoio a gestão do Microrregião de Águas e Esgoto",
       "metadata": {
-        "contratante": "Sem Informações",
-        "status": "Sem Informações",
+        "contratante": "FABRICA",
+        "status": "Aguardando Contratação",
         "inicio": "",
-        "proxima etapa": ""
+        "previsão conclusão": ""
       },
-      "roadmapSteps": [],
+      "roadmapSteps": [
+        { "id": "1", "title": "Planejamento" }
+      ],
       "columns": []
     },
     "org_pi": {
       "title": "ORG.PI",
-      "description": "...",
+      "description": "Sistema de organização estrutural do governo do estado do piaui",
       "metadata": {
         "contratante": "FABRICA",
-        "status": "Sem Informações",
-        "inicio": "",
-        "proxima etapa": ""
+        "status": "Aguardando Contratação",
+        "inicio": "02/2025",
+        "previsão conclusão": "04/2025"
       },
       "roadmapSteps": [
-        { "id": "1", "title": "Planejamento" },
+        { "id": "1", "title": "Planejamento"},
         { "id": "2", "title": "Desenvolvimento" }
       ],
       "columns": [
@@ -353,7 +392,7 @@
           "color": "red",
           "items": [
             {
-              "title": "Pedro Alexandre",
+              "title": "Ubaldo Neves",
               "vinculo": "SEAD"
             }
           ]
@@ -394,44 +433,9 @@
     },
     "sgct": {
       "title": "SGCT",
-      "description": "...",
+      "description": "Sistema de gestão de contratos terceirizados do governo do estado do piaui",
       "metadata": {
         "contratante": "FABRICA",
-        "status": "Sem Informações",
-        "inicio": "",
-        "proxima etapa": ""
-      },
-      "roadmapSteps": [],
-      "columns": [
-        {
-          "title": "Desenvolvimento",
-          "color": "yellow",
-          "items": [
-            {
-              "title": "Jonatas",
-              "vinculo": "SEAD"
-            }
-          ]
-        }
-      ]
-    },
-    "sga": {
-      "title": "SGA",
-      "description": "...",
-      "metadata": {
-        "contratante": "FABRICA",
-        "status": "Sem Informações",
-        "inicio": "",
-        "proxima etapa": ""
-      },
-      "roadmapSteps": [],
-      "columns": []
-    },
-    "govsync": {
-      "title": "GovSync",
-      "description": "...",
-      "metadata": {
-        "contratante": "NEVES & FERREIRA",
         "status": "Aguardando Contratação",
         "inicio": "",
         "proxima etapa": ""
@@ -440,6 +444,78 @@
         { "id": "1", "title": "Planejamento" }
       ],
       "columns": [
+        {
+          "title": "Analise de Requisitos",
+          "color": "red",
+          "items": [
+            {
+              "title": "Ubaldo Neves",
+              "vinculo": "SEAD"
+            },
+            {
+              "title": "Pedro Alexandre",
+              "vinculo": "SEAD"
+            },
+            {
+              "title": "Tailana - CGE",
+              "vinculo": "SEAD"
+            }
+          ]
+        },
+        {
+          "title": "Desenvolvimento",
+          "color": "yellow",
+          "items": [
+            {
+              "title": "Jonatas",
+              "vinculo": "SEAD"
+            },
+            {
+              "title": "Carlos Cesar",
+              "vinculo": "SSP"
+            }
+          ]
+        }
+      ]
+    },
+    "sga": {
+      "title": "SGA",
+      "description": "Sistema de gestão de atendimento dos espaços cidadaninia do governo do estado do piaui",
+      "metadata": {
+        "contratante": "FABRICA",
+        "status": "Sem Informações",
+        "inicio": "",
+        "previsão conclusão": ""
+      },
+      "roadmapSteps": [],
+      "columns": []
+    },
+    "govsync": {
+      "title": "GovSync",
+      "description": "Sistema de gestão de ações governamentais do governo do estado do piaui",
+      "metadata": {
+        "contratante": "NEVES & FERREIRA",
+        "status": "Aguardando Contratação",
+        "inicio": "09/2024",
+        "previsão conclusão": ""
+      },
+      "roadmapSteps": [
+        { "id": "1", "title": "Planejamento" },
+        { "id": "2", "title": "Desenvolvimento" },
+        { "id": "3", "title": "Implantação" },
+        { "id": "4", "title": "Manutenção" }
+      ],
+      "columns": [
+        {
+          "title": "Analise de Requisitos",
+          "color": "red",
+          "items": [
+            {
+              "title": "Ubaldo Neves",
+              "vinculo": "SEAD"
+            }
+          ]
+        },
         {
           "title": "Gerencia de Projetos",
           "color": "blue",
@@ -454,6 +530,10 @@
           "title": "Desenvolvimento",
           "color": "yellow",
           "items": [
+            {
+              "title": "Carlos Cesar",
+              "vinculo": "SSP"
+            },
             {
               "title": "Ramon",
               "vinculo": "SEAD"
